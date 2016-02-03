@@ -16,5 +16,10 @@ namespace Funda_TrabajoParcial
         {
             InitializeComponent();
         }
+
+     
+        
+
+       
     }
 }
