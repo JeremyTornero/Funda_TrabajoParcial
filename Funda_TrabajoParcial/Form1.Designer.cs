@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lstNoClientes = new System.Windows.Forms.ListBox();
             this.lstClientes = new System.Windows.Forms.ListBox();
@@ -58,6 +59,7 @@
             this.btnVentanillaConMayorNumeroDeAtenciones = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.btniniciar = new System.Windows.Forms.Button();
+            this.Reloj = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -403,6 +405,11 @@
             this.btniniciar.Text = "Iniciar atención";
             this.btniniciar.UseVisualStyleBackColor = false;
             // 
+            // Reloj
+            // 
+            this.Reloj.Enabled = true;
+            this.Reloj.Interval = 1000;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -467,6 +474,7 @@
         private System.Windows.Forms.Button btnVentanillaConMayorNumeroDeAtenciones;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button btniniciar;
+        private System.Windows.Forms.Timer Reloj;
 
     }
 }
