@@ -413,6 +413,7 @@
             // 
             // Reloj
             // 
+            this.Reloj.Enabled = true;
             this.Reloj.Interval = 1000;
             this.Reloj.Tick += new System.EventHandler(this.Reloj_Tick);
             // 
