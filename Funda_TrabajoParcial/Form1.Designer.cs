@@ -30,35 +30,35 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lstNoClientes = new System.Windows.Forms.ListBox();
-            this.lstClientes = new System.Windows.Forms.ListBox();
-            this.lstPreferencial = new System.Windows.Forms.ListBox();
+            this.lst_NoClientes = new System.Windows.Forms.ListBox();
+            this.lst_Clientes = new System.Windows.Forms.ListBox();
+            this.lst_Preferencial = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.listViewPreferencial = new System.Windows.Forms.ListView();
-            this.listViewCliente = new System.Windows.Forms.ListView();
-            this.listViewNoCliente = new System.Windows.Forms.ListView();
+            this.ListView1 = new System.Windows.Forms.ListView();
+            this.ListView2 = new System.Windows.Forms.ListView();
+            this.ListView3 = new System.Windows.Forms.ListView();
             this.label6 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnIngresarUsuario = new System.Windows.Forms.Button();
+            this.btn_IngresarUsuario = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.btntimer = new System.Windows.Forms.Button();
+            this.btn_Reloj = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.lbl_Reloj = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnMontoTotalPorCadaTipoDeOperacion = new System.Windows.Forms.Button();
-            this.btnOperacionMasSolicitada = new System.Windows.Forms.Button();
-            this.btnVentanillaConMayorNumeroDeAtenciones = new System.Windows.Forms.Button();
+            this.btn_Reporte3 = new System.Windows.Forms.Button();
+            this.btn_Reporte2 = new System.Windows.Forms.Button();
+            this.btn_Reporte1 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.btniniciar = new System.Windows.Forms.Button();
+            this.btn_Iniciar = new System.Windows.Forms.Button();
             this.Reloj = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -70,59 +70,59 @@
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lstNoClientes
+            // lst_NoClientes
             // 
-            this.lstNoClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lstNoClientes.FormattingEnabled = true;
-            this.lstNoClientes.HorizontalScrollbar = true;
-            this.lstNoClientes.ItemHeight = 16;
-            this.lstNoClientes.Location = new System.Drawing.Point(269, 47);
-            this.lstNoClientes.Name = "lstNoClientes";
-            this.lstNoClientes.Size = new System.Drawing.Size(121, 196);
-            this.lstNoClientes.TabIndex = 37;
+            this.lst_NoClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_NoClientes.FormattingEnabled = true;
+            this.lst_NoClientes.HorizontalScrollbar = true;
+            this.lst_NoClientes.ItemHeight = 16;
+            this.lst_NoClientes.Location = new System.Drawing.Point(269, 47);
+            this.lst_NoClientes.Name = "lst_NoClientes";
+            this.lst_NoClientes.Size = new System.Drawing.Size(121, 196);
+            this.lst_NoClientes.TabIndex = 37;
             // 
-            // lstClientes
+            // lst_Clientes
             // 
-            this.lstClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lstClientes.FormattingEnabled = true;
-            this.lstClientes.HorizontalScrollbar = true;
-            this.lstClientes.ItemHeight = 16;
-            this.lstClientes.Location = new System.Drawing.Point(141, 47);
-            this.lstClientes.Name = "lstClientes";
-            this.lstClientes.Size = new System.Drawing.Size(121, 196);
-            this.lstClientes.TabIndex = 36;
+            this.lst_Clientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_Clientes.FormattingEnabled = true;
+            this.lst_Clientes.HorizontalScrollbar = true;
+            this.lst_Clientes.ItemHeight = 16;
+            this.lst_Clientes.Location = new System.Drawing.Point(141, 47);
+            this.lst_Clientes.Name = "lst_Clientes";
+            this.lst_Clientes.Size = new System.Drawing.Size(121, 196);
+            this.lst_Clientes.TabIndex = 36;
             // 
-            // lstPreferencial
+            // lst_Preferencial
             // 
-            this.lstPreferencial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lstPreferencial.FormattingEnabled = true;
-            this.lstPreferencial.HorizontalScrollbar = true;
-            this.lstPreferencial.ItemHeight = 16;
-            this.lstPreferencial.Location = new System.Drawing.Point(13, 47);
-            this.lstPreferencial.Name = "lstPreferencial";
-            this.lstPreferencial.Size = new System.Drawing.Size(121, 196);
-            this.lstPreferencial.TabIndex = 35;
+            this.lst_Preferencial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lst_Preferencial.FormattingEnabled = true;
+            this.lst_Preferencial.HorizontalScrollbar = true;
+            this.lst_Preferencial.ItemHeight = 16;
+            this.lst_Preferencial.Location = new System.Drawing.Point(13, 47);
+            this.lst_Preferencial.Name = "lst_Preferencial";
+            this.lst_Preferencial.Size = new System.Drawing.Size(121, 196);
+            this.lst_Preferencial.TabIndex = 35;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.listViewPreferencial);
-            this.groupBox1.Controls.Add(this.listViewCliente);
-            this.groupBox1.Controls.Add(this.listViewNoCliente);
+            this.groupBox1.Controls.Add(this.ListView1);
+            this.groupBox1.Controls.Add(this.ListView2);
+            this.groupBox1.Controls.Add(this.ListView3);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(429, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(267, 450);
+            this.groupBox1.Size = new System.Drawing.Size(376, 450);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(94, 19);
+            this.label4.Location = new System.Drawing.Point(154, 19);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 16);
             this.label4.TabIndex = 13;
@@ -131,40 +131,40 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(94, 163);
+            this.label5.Location = new System.Drawing.Point(154, 164);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 16);
             this.label5.TabIndex = 13;
             this.label5.Text = "Ventanilla 2";
             // 
-            // listViewPreferencial
+            // ListView1
             // 
-            this.listViewPreferencial.Location = new System.Drawing.Point(10, 38);
-            this.listViewPreferencial.Name = "listViewPreferencial";
-            this.listViewPreferencial.Size = new System.Drawing.Size(246, 114);
-            this.listViewPreferencial.TabIndex = 1;
-            this.listViewPreferencial.UseCompatibleStateImageBehavior = false;
+            this.ListView1.Location = new System.Drawing.Point(12, 38);
+            this.ListView1.Name = "ListView1";
+            this.ListView1.Size = new System.Drawing.Size(353, 114);
+            this.ListView1.TabIndex = 1;
+            this.ListView1.UseCompatibleStateImageBehavior = false;
             // 
-            // listViewCliente
+            // ListView2
             // 
-            this.listViewCliente.Location = new System.Drawing.Point(10, 182);
-            this.listViewCliente.Name = "listViewCliente";
-            this.listViewCliente.Size = new System.Drawing.Size(245, 114);
-            this.listViewCliente.TabIndex = 2;
-            this.listViewCliente.UseCompatibleStateImageBehavior = false;
+            this.ListView2.Location = new System.Drawing.Point(12, 183);
+            this.ListView2.Name = "ListView2";
+            this.ListView2.Size = new System.Drawing.Size(353, 114);
+            this.ListView2.TabIndex = 2;
+            this.ListView2.UseCompatibleStateImageBehavior = false;
             // 
-            // listViewNoCliente
+            // ListView3
             // 
-            this.listViewNoCliente.Location = new System.Drawing.Point(10, 326);
-            this.listViewNoCliente.Name = "listViewNoCliente";
-            this.listViewNoCliente.Size = new System.Drawing.Size(245, 114);
-            this.listViewNoCliente.TabIndex = 3;
-            this.listViewNoCliente.UseCompatibleStateImageBehavior = false;
+            this.ListView3.Location = new System.Drawing.Point(12, 326);
+            this.ListView3.Name = "ListView3";
+            this.ListView3.Size = new System.Drawing.Size(353, 114);
+            this.ListView3.TabIndex = 3;
+            this.ListView3.UseCompatibleStateImageBehavior = false;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(94, 307);
+            this.label6.Location = new System.Drawing.Point(154, 307);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 16);
             this.label6.TabIndex = 12;
@@ -182,7 +182,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.btnIngresarUsuario);
+            this.groupBox2.Controls.Add(this.btn_IngresarUsuario);
             this.groupBox2.Controls.Add(this.txtUsuario);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
@@ -192,19 +192,20 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Ingresar nombre:";
             // 
-            // btnIngresarUsuario
+            // btn_IngresarUsuario
             // 
-            this.btnIngresarUsuario.BackColor = System.Drawing.Color.Red;
-            this.btnIngresarUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnIngresarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnIngresarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresarUsuario.ForeColor = System.Drawing.Color.White;
-            this.btnIngresarUsuario.Location = new System.Drawing.Point(230, 22);
-            this.btnIngresarUsuario.Name = "btnIngresarUsuario";
-            this.btnIngresarUsuario.Size = new System.Drawing.Size(87, 27);
-            this.btnIngresarUsuario.TabIndex = 48;
-            this.btnIngresarUsuario.Text = "Registrar";
-            this.btnIngresarUsuario.UseVisualStyleBackColor = false;
+            this.btn_IngresarUsuario.BackColor = System.Drawing.Color.Red;
+            this.btn_IngresarUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_IngresarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_IngresarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_IngresarUsuario.ForeColor = System.Drawing.Color.White;
+            this.btn_IngresarUsuario.Location = new System.Drawing.Point(230, 22);
+            this.btn_IngresarUsuario.Name = "btn_IngresarUsuario";
+            this.btn_IngresarUsuario.Size = new System.Drawing.Size(87, 27);
+            this.btn_IngresarUsuario.TabIndex = 48;
+            this.btn_IngresarUsuario.Text = "Registrar";
+            this.btn_IngresarUsuario.UseVisualStyleBackColor = false;
+            this.btn_IngresarUsuario.Click += new System.EventHandler(this.btn_IngresarUsuario_Click);
             // 
             // groupBox3
             // 
@@ -212,9 +213,9 @@
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.lstNoClientes);
-            this.groupBox3.Controls.Add(this.lstPreferencial);
-            this.groupBox3.Controls.Add(this.lstClientes);
+            this.groupBox3.Controls.Add(this.lst_NoClientes);
+            this.groupBox3.Controls.Add(this.lst_Preferencial);
+            this.groupBox3.Controls.Add(this.lst_Clientes);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(12, 87);
             this.groupBox3.Name = "groupBox3";
@@ -267,7 +268,7 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox6.Controls.Add(this.btntimer);
+            this.groupBox6.Controls.Add(this.btn_Reloj);
             this.groupBox6.Controls.Add(this.pictureBox2);
             this.groupBox6.Controls.Add(this.label9);
             this.groupBox6.Controls.Add(this.lbl_Reloj);
@@ -279,19 +280,20 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Tiempo";
             // 
-            // btntimer
+            // btn_Reloj
             // 
-            this.btntimer.BackColor = System.Drawing.Color.Red;
-            this.btntimer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btntimer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btntimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btntimer.ForeColor = System.Drawing.Color.White;
-            this.btntimer.Location = new System.Drawing.Point(26, 63);
-            this.btntimer.Name = "btntimer";
-            this.btntimer.Size = new System.Drawing.Size(78, 27);
-            this.btntimer.TabIndex = 49;
-            this.btntimer.Text = "Iniciar";
-            this.btntimer.UseVisualStyleBackColor = false;
+            this.btn_Reloj.BackColor = System.Drawing.Color.Red;
+            this.btn_Reloj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Reloj.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Reloj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Reloj.ForeColor = System.Drawing.Color.White;
+            this.btn_Reloj.Location = new System.Drawing.Point(26, 63);
+            this.btn_Reloj.Name = "btn_Reloj";
+            this.btn_Reloj.Size = new System.Drawing.Size(78, 27);
+            this.btn_Reloj.TabIndex = 49;
+            this.btn_Reloj.Text = "Iniciar";
+            this.btn_Reloj.UseVisualStyleBackColor = false;
+            this.btn_Reloj.Click += new System.EventHandler(this.btn_Reloj_Click);
             // 
             // pictureBox2
             // 
@@ -327,9 +329,9 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.btnMontoTotalPorCadaTipoDeOperacion);
-            this.groupBox4.Controls.Add(this.btnOperacionMasSolicitada);
-            this.groupBox4.Controls.Add(this.btnVentanillaConMayorNumeroDeAtenciones);
+            this.groupBox4.Controls.Add(this.btn_Reporte3);
+            this.groupBox4.Controls.Add(this.btn_Reporte2);
+            this.groupBox4.Controls.Add(this.btn_Reporte1);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(153, 427);
             this.groupBox4.Name = "groupBox4";
@@ -338,52 +340,55 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Reportes";
             // 
-            // btnMontoTotalPorCadaTipoDeOperacion
+            // btn_Reporte3
             // 
-            this.btnMontoTotalPorCadaTipoDeOperacion.BackColor = System.Drawing.Color.Red;
-            this.btnMontoTotalPorCadaTipoDeOperacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnMontoTotalPorCadaTipoDeOperacion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMontoTotalPorCadaTipoDeOperacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMontoTotalPorCadaTipoDeOperacion.ForeColor = System.Drawing.Color.White;
-            this.btnMontoTotalPorCadaTipoDeOperacion.Location = new System.Drawing.Point(206, 1);
-            this.btnMontoTotalPorCadaTipoDeOperacion.Name = "btnMontoTotalPorCadaTipoDeOperacion";
-            this.btnMontoTotalPorCadaTipoDeOperacion.Size = new System.Drawing.Size(33, 27);
-            this.btnMontoTotalPorCadaTipoDeOperacion.TabIndex = 49;
-            this.btnMontoTotalPorCadaTipoDeOperacion.Text = "3";
-            this.btnMontoTotalPorCadaTipoDeOperacion.UseVisualStyleBackColor = false;
+            this.btn_Reporte3.BackColor = System.Drawing.Color.Red;
+            this.btn_Reporte3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Reporte3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Reporte3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Reporte3.ForeColor = System.Drawing.Color.White;
+            this.btn_Reporte3.Location = new System.Drawing.Point(206, 1);
+            this.btn_Reporte3.Name = "btn_Reporte3";
+            this.btn_Reporte3.Size = new System.Drawing.Size(33, 27);
+            this.btn_Reporte3.TabIndex = 49;
+            this.btn_Reporte3.Text = "3";
+            this.btn_Reporte3.UseVisualStyleBackColor = false;
+            this.btn_Reporte3.Click += new System.EventHandler(this.btn_Reporte3_Click);
             // 
-            // btnOperacionMasSolicitada
+            // btn_Reporte2
             // 
-            this.btnOperacionMasSolicitada.BackColor = System.Drawing.Color.Red;
-            this.btnOperacionMasSolicitada.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnOperacionMasSolicitada.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnOperacionMasSolicitada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOperacionMasSolicitada.ForeColor = System.Drawing.Color.White;
-            this.btnOperacionMasSolicitada.Location = new System.Drawing.Point(157, 0);
-            this.btnOperacionMasSolicitada.Name = "btnOperacionMasSolicitada";
-            this.btnOperacionMasSolicitada.Size = new System.Drawing.Size(33, 27);
-            this.btnOperacionMasSolicitada.TabIndex = 49;
-            this.btnOperacionMasSolicitada.Text = "2";
-            this.btnOperacionMasSolicitada.UseVisualStyleBackColor = false;
+            this.btn_Reporte2.BackColor = System.Drawing.Color.Red;
+            this.btn_Reporte2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Reporte2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Reporte2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Reporte2.ForeColor = System.Drawing.Color.White;
+            this.btn_Reporte2.Location = new System.Drawing.Point(157, 0);
+            this.btn_Reporte2.Name = "btn_Reporte2";
+            this.btn_Reporte2.Size = new System.Drawing.Size(33, 27);
+            this.btn_Reporte2.TabIndex = 49;
+            this.btn_Reporte2.Text = "2";
+            this.btn_Reporte2.UseVisualStyleBackColor = false;
+            this.btn_Reporte2.Click += new System.EventHandler(this.btn_Reporte2_Click);
             // 
-            // btnVentanillaConMayorNumeroDeAtenciones
+            // btn_Reporte1
             // 
-            this.btnVentanillaConMayorNumeroDeAtenciones.BackColor = System.Drawing.Color.Red;
-            this.btnVentanillaConMayorNumeroDeAtenciones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnVentanillaConMayorNumeroDeAtenciones.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnVentanillaConMayorNumeroDeAtenciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVentanillaConMayorNumeroDeAtenciones.ForeColor = System.Drawing.Color.White;
-            this.btnVentanillaConMayorNumeroDeAtenciones.Location = new System.Drawing.Point(104, 0);
-            this.btnVentanillaConMayorNumeroDeAtenciones.Name = "btnVentanillaConMayorNumeroDeAtenciones";
-            this.btnVentanillaConMayorNumeroDeAtenciones.Size = new System.Drawing.Size(33, 27);
-            this.btnVentanillaConMayorNumeroDeAtenciones.TabIndex = 49;
-            this.btnVentanillaConMayorNumeroDeAtenciones.Text = "1";
-            this.btnVentanillaConMayorNumeroDeAtenciones.UseVisualStyleBackColor = false;
+            this.btn_Reporte1.BackColor = System.Drawing.Color.Red;
+            this.btn_Reporte1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Reporte1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Reporte1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Reporte1.ForeColor = System.Drawing.Color.White;
+            this.btn_Reporte1.Location = new System.Drawing.Point(104, 0);
+            this.btn_Reporte1.Name = "btn_Reporte1";
+            this.btn_Reporte1.Size = new System.Drawing.Size(33, 27);
+            this.btn_Reporte1.TabIndex = 49;
+            this.btn_Reporte1.Text = "1";
+            this.btn_Reporte1.UseVisualStyleBackColor = false;
+            this.btn_Reporte1.Click += new System.EventHandler(this.btn_Reporte1_Click);
             // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox5.Controls.Add(this.btniniciar);
+            this.groupBox5.Controls.Add(this.btn_Iniciar);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(153, 360);
             this.groupBox5.Name = "groupBox5";
@@ -391,24 +396,25 @@
             this.groupBox5.TabIndex = 48;
             this.groupBox5.TabStop = false;
             // 
-            // btniniciar
+            // btn_Iniciar
             // 
-            this.btniniciar.BackColor = System.Drawing.Color.Red;
-            this.btniniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btniniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btniniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btniniciar.ForeColor = System.Drawing.Color.White;
-            this.btniniciar.Location = new System.Drawing.Point(36, 21);
-            this.btniniciar.Name = "btniniciar";
-            this.btniniciar.Size = new System.Drawing.Size(185, 27);
-            this.btniniciar.TabIndex = 49;
-            this.btniniciar.Text = "Iniciar atención";
-            this.btniniciar.UseVisualStyleBackColor = false;
+            this.btn_Iniciar.BackColor = System.Drawing.Color.Red;
+            this.btn_Iniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Iniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Iniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Iniciar.ForeColor = System.Drawing.Color.White;
+            this.btn_Iniciar.Location = new System.Drawing.Point(36, 21);
+            this.btn_Iniciar.Name = "btn_Iniciar";
+            this.btn_Iniciar.Size = new System.Drawing.Size(185, 27);
+            this.btn_Iniciar.TabIndex = 49;
+            this.btn_Iniciar.Text = "Iniciar atención";
+            this.btn_Iniciar.UseVisualStyleBackColor = false;
+            this.btn_Iniciar.Click += new System.EventHandler(this.btn_Iniciar_Click);
             // 
             // Reloj
             // 
-            this.Reloj.Enabled = true;
             this.Reloj.Interval = 1000;
+            this.Reloj.Tick += new System.EventHandler(this.Reloj_Tick);
             // 
             // Form1
             // 
@@ -416,7 +422,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(708, 474);
+            this.ClientSize = new System.Drawing.Size(820, 474);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox6);
@@ -427,6 +433,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Demo";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -445,13 +452,13 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox lstNoClientes;
-        private System.Windows.Forms.ListBox lstClientes;
-        private System.Windows.Forms.ListBox lstPreferencial;
+        private System.Windows.Forms.ListBox lst_NoClientes;
+        private System.Windows.Forms.ListBox lst_Clientes;
+        private System.Windows.Forms.ListBox lst_Preferencial;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listViewPreferencial;
-        private System.Windows.Forms.ListView listViewCliente;
-        private System.Windows.Forms.ListView listViewNoCliente;
+        private System.Windows.Forms.ListView ListView1;
+        private System.Windows.Forms.ListView ListView2;
+        private System.Windows.Forms.ListView ListView3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -463,17 +470,17 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lbl_Reloj;
-        private System.Windows.Forms.Button btnIngresarUsuario;
-        private System.Windows.Forms.Button btntimer;
+        private System.Windows.Forms.Button btn_IngresarUsuario;
+        private System.Windows.Forms.Button btn_Reloj;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnMontoTotalPorCadaTipoDeOperacion;
-        private System.Windows.Forms.Button btnOperacionMasSolicitada;
-        private System.Windows.Forms.Button btnVentanillaConMayorNumeroDeAtenciones;
+        private System.Windows.Forms.Button btn_Reporte3;
+        private System.Windows.Forms.Button btn_Reporte2;
+        private System.Windows.Forms.Button btn_Reporte1;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button btniniciar;
+        private System.Windows.Forms.Button btn_Iniciar;
         private System.Windows.Forms.Timer Reloj;
 
     }
