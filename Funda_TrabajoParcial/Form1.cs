@@ -301,13 +301,13 @@ namespace Funda_TrabajoParcial
 
         private void btn_Reporte1_Click(object sender, EventArgs e)
         {
-            if (ListView1.Items.Count > ListView1.Items.Count && ListView1.Items.Count > ListView1.Items.Count)
+            if (ListView2.Items.Count > ListView3.Items.Count && ListView2.Items.Count > ListView1.Items.Count)
                 MessageBox.Show("La ventanilla con mayor número de atenciones es: CLIENTES");
             else
-                if (ListView1.Items.Count > ListView1.Items.Count && ListView1.Items.Count > ListView1.Items.Count)
+                if (ListView3.Items.Count > ListView2.Items.Count && ListView3.Items.Count > ListView1.Items.Count)
                     MessageBox.Show("La ventanilla con mayor número de atenciones es: NO CLIENTES");
                 else
-                    if (ListView1.Items.Count > ListView1.Items.Count && ListView1.Items.Count > ListView1.Items.Count)
+                    if (ListView1.Items.Count > ListView2.Items.Count && ListView1.Items.Count > ListView3.Items.Count)
                         MessageBox.Show("La ventanilla con mayor número de atenciones es: PREFERENCIAL");
         }
 
@@ -322,11 +322,13 @@ namespace Funda_TrabajoParcial
 
         private void btn_Reporte3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("El monto total por depósito en ventanilla preferencial fue de: " + MontoTotal_dp + "\n" + "El monto total por retiro en ventanilla preferencial fue de: " + MontoTotal_rp
-               + "\n" + "El monto total por depósito en ventanilla clientes fue de: " + MontoTotal_dc + "\n" + "El monto total por retiro en ventanilla clientes fue de: " + MontoTotal_rc + "\n" +
-               "El monto total por depósito en ventanilla no clientes fue de: " + MontoTotal_dnc + "\n" + "El monto total por retiro en ventanilla no clientes fue de: " + MontoTotal_rnc);
+            MessageBox.Show("El monto total por depósito en ventanilla 1 fue de: " + MontoTotal_dp + "\n" + "El monto total por retiro en ventanilla 1 fue de: " + MontoTotal_rp
+               + "\n" + "\n" + "El monto total por depósito en ventanilla 2 fue de: " + MontoTotal_dc + "\n" + "El monto total por retiro en ventanilla 2 fue de: " + MontoTotal_rc 
+               + "\n" + "\n" + "El monto total por depósito en ventanilla 3 fue de: " + MontoTotal_dnc + "\n" + "El monto total por retiro en ventanilla 3 fue de: " + MontoTotal_rnc);
         
         }
+
+       
        
     }
 }
